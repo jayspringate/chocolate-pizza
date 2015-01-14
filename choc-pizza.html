@@ -4,83 +4,114 @@
 		<title>
 			Chocolate Pizza
 		</title>
-		<link href="reset-choc.css" type="text/css" rel="stylesheet" />
-		<link href="style-choc.css" type="text/css" rel="stylesheet" />
+		<link href="css/reset-choc.css" type="text/css" rel="stylesheet" />
+		<link href="css/style-choc.css" type="text/css" rel="stylesheet" />
+		<link href="css/960_16_col.css" type="text/css" rel="stylesheet" />
+		<link href='http://fonts.googleapis.com/css?family=Yellowtail|Abel|Droid+Serif:400,700|Patrick+Hand' rel='stylesheet' type='text/css' />
 	</head>
-	<body>
-		<header>
-			<div id="delicious">
-				Delicious
+	<body class="container_16 clearfix">
+		<header id="top-header" class="grid_15">
+			<div id="top-logo" class="toplogo">
+				<img src="img/logo.png" />
 			</div>
-			<div id="sub-delicious">
+			<div id="title-plus-subtitle" class="toplogo">
+				<div id="delicious">Delicious
+				</div>
+				<div id="sub-delicious">
 				THE BEST FOOD BLOG ON THE WEB
+				</div>
 			</div>
-			<div id="top-logo">
-				<img src="https://www.dropbox.com/s/82h4pg4ovo5k0mx/logo.png?dl=0" />
-			</div>
+			<section id="top-right">
+				<img id="facebook" src= "img/fb-icon.png">
+				<img id="twitter" src="img/twit-icon.png" />
+				<img id="google-plus" src="img/gp-icon.png" />
+				<img id="instagram" src="img/insta-icon.png" />
+				<img id="flickr" src="img/flic-icon.png" />
+				<img id="pinterest" src="img/pint-icon.png" />
+				<img id="rss" src="img/rss-icon.png" />
+				<img id="email" src="img/mail-icon.png" />
+			</section>
 		</header>
-		<aside id="top-right">
-			<img id="facebook" src="https://www.dropbox.com/s/ry78j6lphblmajv/fb-icon.png?dl=0" />
-			<img id="twitter" src="https://www.dropbox.com/s/39hha9uzrsm34o6/twit-icon.png?dl=0" />
-			<img id="google-plus" src="https://www.dropbox.com/s/7vya1cra1op5anu/gp-icon.png?dl=0" />
-			<img id="instagram" src="https://www.dropbox.com/s/izzcep2mviaxw3y/insta-icon.png?dl=0" />
-			<img id="flickr" src="https://www.dropbox.com/s/wzsgnq59bahvkzz/flic-icon.png?dl=0" />
-			<img id="pinterest" src="https://www.dropbox.com/s/8k82f2ndd9fu51p/pint-icon.png?dl=0" />
-			<img id="rss" src="https://www.dropbox.com/s/ehx10qs6gp8ivd1/rss-icon.png?dl=0" />
-			<img id="email" src="https://www.dropbox.com/s/5hgigjidh8464jf/mail-icon.png?dl=0" />
-		</aside>
 		<div class="slash-border">
 		</div>
-		<header>
-			<div id="chocolate-pizza">Chocolate Pizza
+		<header id="article-header" class="grid_15">
+			<div class="choc-pizza">
+				<div id="chocolate-pizza">Chocolate Pizza
+				</div>
+				<div id="sub-chocolate-pizza">SUB CHOCOLATE PIZZA
+				</div>
 			</div>
-			<div id="sub-chocolate-pizza">SUB CHOCOLATE PIZZA
+			<div id="print" class="choc-pizza"> 
+				<img class="print-group" id="print-img" src="img/print-icon.png" />
+				<div class="print-group" id="print-text">PRINT
+				</div>
 			</div>
 		</header>
-		<aside id="print"> 
-			<img id="print-img" src="https://www.dropbox.com/s/2vhf2axl8plyh9c/print-icon.png?dl=0" />
-			<div id="print-text">PRINT
-			</div>
-		</aside>
-		<section>
-			<img id="chocolate-pizza-img" src="https://www.dropbox.com/s/tyx927gy4m60rkx/choco-pizza.png?dl=0" />
-		</section>
-		<article>
-			<section id="first-paragraph" class="paragraph">fig swirl fig swirl fig swirl
-			</section>
-			<section id="second-paragraph" class="paragraph">ice cream ice cream ice cream
-			</section>
-			<section id="third-paragraph" class="paragraph">machine machine machine
-			</section>
-			<section>
-				<ul>
-					<li class="checkbox-unchecked"> 1 1/2 cups milk </li>
-					<li class="checkbox-unchecked"> 1/2 cup mascarpone </li>
-					<li class="checkbox-unchecked"> 1/2 tsp pink salt </li>
-					<li class="checkbox-unchecked"> 1 lb Black Mission Figs </li>
-					<li class="checkbox-unchecked"> 1/2 cup brown sugar </li>
-					<li class="checkbox-unchecked"> 2-4 tbsp water </li>
-					<li class="checkbox-unchecked"> 1 1/2 cups heavy cream </li>
-					<li class="checkbox-checked"> 1/3 granulated sugar</li>
-					<li class="checkbox-checked"> 2 egg yolks </li>
-					<li class="checkbox-unchecked"> 1 lemon, juiced </li>
-					<li class="checkbox-unchecked"> 2 tbsp butter </li>
-					<li class="checkbox-unchecked"> 1 cup honey roasted pecans, roughly chopped </li>
-				</ul>
-				<img id="notepad" src="https://www.dropbox.com/s/0crhxxioyfuiyaw/list-bg.png?dl=0" />
-			</section>
+		<main>
+			<article>
+				<section>
+					<img class="grid_15" id="chocolate-pizza-img" src="img/choco-pizza.png" />
+				</section>
+					<section id="paragraphs" class="grid_15">				
+						<section id="first-paragraph" class="paragraph"><p>fig swirl fig swirl fig swirl</p>
+						</section>
+						<section id="second-paragraph" class="paragraph"><p>ice cream ice cream ice cream</p>
+						</section>
+						<section id="third-paragraph" class="paragraph"><p>machine machine machine</p>
+						</section>
+					</section>
+				<section class="grid_15"id="ingredient-list">
+					<ul>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li class="line-through">
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li class="line-through">
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+						<li>
+							<input type="checkbox" /> 1 1/2 cups milk
+						</li>
+					</ul>
+				</section>
 		</article>
 		<div class="slash-border">
 		</div>
-		<footer>
-			<img id="author-photo" src="https://www.dropbox.com/s/4wizmo7s0jgbnpv/van-pic.png?dl=0" />
+		<footer class="grid_15">
+			<img id="author-photo" src="img/van-pic.png" />
 			<div id="author-name">Vanessa Stevenson
 			</div>
 			<div id="author-description"> Food enthusiast
 			</div>
 			<div id="share-recipe"> SHARE RECIPE
 			</div>
-			<img id="bottom-logo" src="https://www.dropbox.com/s/fddpolkoqdyrwjc/small-logo.png?dl=0" />
+			<img id="bottom-logo" src="img/small-logo.png" />
 			<div id="copyright"> Copyright
 			</div>
 		</footer>

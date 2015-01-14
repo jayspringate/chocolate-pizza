@@ -1,0 +1,77 @@
+body {
+	margin-top: 40px;
+	margin-bottom: 40px;
+}
+
+.toplogo{
+	display: inline-block;
+}
+
+#delicious {
+	font-family: "Yellowtail";
+	font-size: 32px;
+}
+
+#sub-delicious {
+	font-family: "Abel";
+	font-size: 10px;	
+}
+div.slash-border {
+	border-image:;
+}
+#article-header {
+	margin-top: 60px;
+}
+.choc-pizza {
+	display: inline-block;
+}
+#chocolate-pizza {
+	font-family: "Droid Serif";
+	font-size: 36px;
+	font-weight: bold;
+}
+#sub-chocolate-pizza {
+	font-family: tbd;
+	font-size: 10px;
+}
+.print-group {
+	display: inline-block;
+}
+#print-text{
+	font-family: tbd;
+	font-size: 11px;
+}
+#chocolate-pizza-img {
+	margin-top: 20px;
+}
+p {
+	font-size: 16px;
+	margin-top: 20px;
+	margin-bottom: 20px;
+}
+li {
+	font-family: "Patrick Hand";
+	font-size: 24px;
+	margin-left: 20px;
+	opacity: 0.5;
+}
+#share-recipe {
+	color: white;
+	background-color: orange;
+}
+#ingredient-list {
+	background-image: url("../img/list-bg.png");
+}
+.line-through {
+	text-decoration: line-through;
+}
+#bottom-logo {
+	margin-right: auto;
+	margin-left: auto;
+}
+#top-right {
+	float: right;
+}
+#print {
+	float: right;
+}
