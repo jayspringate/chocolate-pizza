@@ -1,0 +1,131 @@
+.inline {
+	display: inline-block;
+}
+
+#delicious {
+	font-family: "Yellowtail";
+	font-size: 37px;
+}
+
+#sub-delicious {
+	font-family: "Abel";
+	font-size: 12px;
+	margin-left: 4px;	
+}
+
+#article-header {
+	margin-top: 55px;
+}
+
+.top-border{
+	margin-top: 25px;
+	margin-left: -3px;
+}
+
+#chocolate-pizza {
+	font-family: "Oswald";
+	font-size: 38px;
+	font-weight: bold;
+	margin-bottom: 10px;
+}
+
+#sub-chocolate-pizza {
+	margin-bottom: 20px;
+}
+
+.subheading{
+	font-family: "Abel";
+	font-size: 14px;
+	opacity: 0.5;
+}
+
+#chocolate-pizza-img {
+	margin-top: 10px;
+}
+
+p {
+	font-size: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+	text-indent: 16px;
+	line-height: 150%;
+	opacity: 0.65;
+}
+
+li {
+	font-family: "Patrick Hand";
+	font-size: 24px;
+	margin-left: 60px;
+	opacity: 0.6;
+	line-height: 120%;	
+}
+
+#share-recipe {
+	color: white;
+	background-color: #ad5c33;
+	padding: 20px 30px;
+	float: right;
+	font-family: "Abel";
+	font-size: 20px;
+}
+
+#ingredient-list {
+	background-image: url("../img/list-bg.png");
+	-webkit-columns: 2;
+	-moz-columns: 2;
+	columns: 2;
+	padding-top: 40px;
+	padding-bottom: 40px;
+	margin-bottom: 40px;
+}
+
+.line-through {
+	text-decoration: line-through;
+}
+
+.bottom-border {
+	margin-bottom: 20px;
+}
+
+#bottom-logo {
+	display: block;
+	margin-top: 60px;
+}
+
+#top-right {
+	float: right;
+	margin-top: 10px;
+}
+
+#print {
+	float: right;
+	margin-top: 45px;
+}
+
+.footer {
+	margin-top: 100px;
+}
+
+.authorName {
+	margin-bottom: 10px;
+	margin-left: 10px;
+	font-size: 19px;
+	font-weight: bold;
+	opacity: 0.65;
+}
+
+.authorDescription {
+	margin-left: 10px;
+	width: 600px;
+	opacity: 0.65;
+	line-height: 150%;
+	font-size: 15px;
+}
+
+#copyright {
+	text-align: center;
+	font-size: 14px;
+	line-height: 150%;
+	opacity: 0.5;
+	margin-top: 125px;
+}
